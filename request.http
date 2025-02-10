@@ -1,0 +1,20 @@
+### Rota para listar produtos
+GET http://localhost:3000/
+Content-Type: application/json
+
+###
+
+### Rota para cadastrar produtos
+POST http://localhost:3000
+Content-Type: application/json
+requisicao.params
+
+{
+    "id":1,
+    "nome": "ovelha do sertão",
+    "preco": 1400,
+    "quantidade": 5
+}
+###
+
+PUT http://localhost:3000
